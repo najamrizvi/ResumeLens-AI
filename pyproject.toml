@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "AI-powered resume analysis and job-fit platform."
 requires-python = "==3.12.*"
 dependencies = [
-    "fastapi==0.141.1",
+    "fastapi[standard]==0.141.1",
     "uvicorn==0.52.4",
     "pydantic==2.13.4",
     "pypdf==6.16.2",
